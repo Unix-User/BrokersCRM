@@ -1,16 +1,16 @@
-# Ping CRM
+# Broker's CRM
 
-A demo application to illustrate how Inertia.js works.
+A demo application based on Ping CRM to illustrate how to integrate WebRTC on Laravel project with Vue.js and how it works.
 
-![](https://raw.githubusercontent.com/inertiajs/pingcrm/master/screenshot.png)
+![Animação](https://user-images.githubusercontent.com/38821945/204041845-6767c731-fefe-4970-a84b-777a8c0f5afa.gif)
 
 ## Installation
 
 Clone the repo locally:
 
 ```sh
-git clone https://github.com/inertiajs/pingcrm.git pingcrm
-cd pingcrm
+git clone git@github.com:Unix-User/demo.git brokercrm
+cd brokercrm
 ```
 
 Install PHP dependencies:
@@ -67,7 +67,7 @@ Run the dev server (the output will give the address):
 php artisan serve
 ```
 
-You're ready to go! Visit Ping CRM in your browser, and login with:
+You're ready to go! Visit Brokers CRM in your browser, and login with:
 
 - **Username:** johndoe@example.com
 - **Password:** secret
