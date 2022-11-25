@@ -67,6 +67,17 @@ Run the dev server (the output will give the address):
 php artisan serve
 ```
 
+
+Before start we need to share the peers between users, in this case we are using socket.io, follow the steps on this project before test the app or create your own:
+
+[server](https://github.com/Unix-User/socketio-srv)
+
+
+Also, in some network's the user is behind NAT and may not be able to connect others peers, to solve this we need a TURN/STUN server. This one suits very well with this project
+
+[Coturn - TURN/STUN server](https://github.com/coturn/coturn)
+
+
 You're ready to go! Visit Brokers CRM in your browser, and login with:
 
 - **Username:** johndoe@example.com
